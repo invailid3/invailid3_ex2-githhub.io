@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./images/mazda_logo.png" rel="logotype" alt="" >
+        <nav>
+            <div class="block"> 
+                <div><a href="#links">Links</a></div>
+                <div><a href="#table">Table</a></div>
+                <div><a href="#form">Form</a></div>
+            </div>
+        </nav>
+        <h1> MAZDA MIATA</h1> 
+    </header>
+    
+    <div id="links">
+        <ul>
+            <li> <a href="www.kubsu.ru/">KubSU</a> </li>
+            <li> <a href="https://kubsu.ru/">KubSU</a> </li>
+            <li> <a href="http://kubsu.ru/"><img id="pic" src="https://nashzelenyimir.ru/wp-content/uploads/2016/07/%D0%91%D0%B0%D0%BD%D0%B0%D0%BD-%D1%84%D0%BE%D1%82%D0%BE.jpg" alt="" width="300" height="140"></a></li>
+            <li> <a href="/next_page">someone</a> </li>
+            <li> <a href="/">KubSU</a> </li>
+            <li> <a href="#about">my cat(anchor) </a></li>
+            <li> <a href="http://page/find?param1=value1&param2=value2&param3=value3">link with 3 param</a></li>
+            <li> <a href="http://page/?id=someone_id">link with id</a></li>
+            <li> <a href="invailid">relative link on this page</a></li>
+            <li> <a href="./about/invailid">relative link from catalog about</a></li>
+            <li> <a href="../invailid">relative link on higher level </a> </li>
+            <li> <a href="../../invailid">relative link higher 2 level </a></li>
+            <li> i want to go <a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D1%81">home.  </a></li>
+            <li> <a href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B0%D1%80%D0%B5%D0%B3%D1%80%D0%B0%D0%B4%D1%86%D0%B5%D0%B2,_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B8%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87#GT4">Norm people</a></li>
+            <li>
+                <img src="https://i.pinimg.com/originals/b1/73/a1/b173a1ea39a1c276205bacfe7f6c2a9a.jpg" width="190" height="190" alt="meow" usemap="#button">
+                <map name = button>
+                    <area shape="rect" coords="40,25,90,150" href="https://www.google.com/" alt="Прямоугольная область">
+                    <area shape="circle" coords="100,10,25" href="https://i.pinimg.com/originals/6c/c7/a3/6cc7a359d55f63d5bc76f055d7e89011.jpg" alt="Круглая область">
+                
+                </map>
+            </li>
+            <li> <a href=""> with void href</a></li>
+            <li> <a>witgout hef</a></li>
+            <li><a href="http://someone_link.com" rel="nofollow"> notfollow link</a></li>
+            <li><a href="http://someone_link.com" rel="nofollow"> <!--noindex-->notfollow link<!--noindex--></a></li> 
+            <li> <a href="ftp://log:4004@google.com/kotopes.html">someone ftp</a></li>
+        </ul>
+        <ol>
+            <li> <a href="#meow" title="kotopes">Link somewhere</a> </li>
+            <li> <a href="#meooow" title="kotopes">Exile to siberia</a>  </li>
+            <li><a href="#meoooooow" title="kotopes">Link even further</a> </li>
+        </ol>
+    </div>  
+    <br>
+    <p id="about">not hear  </p>
+    <div id="table">
+
+        <table>
+            <thead>
+              <tr>
+                <th>The table header </th>
+                <th> The table header 2 </th>
+                <th> The table header 3</th>
+                <th> The table header 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2">Line 1 column 1-2</td>
+                <td>Line 1 column 3</td>
+                <td>Line 1 column 4</td>
+              </tr>
+              <tr>
+                <td colspan="2">Line 2 column 1-2</td>
+                <td>Line 2 column 3</td>
+                <td>Line 2 column 4</td>
+              </tr>
+              <tr>
+                <td colspan="2">Line 3 column 1-2</td>
+                <td>Line 3 column 3</td>
+                <td>Line 3 column 4</td>
+              </tr>
+              <tr>
+                <td colspan="2">Line 4 column 1-2</td>
+                <td>Line 4 column 3</td>
+                <td>Line 4 column 4</td>
+              </tr>
+              <tr>
+                <td colspan="2">Line 5 column 1-2</td>
+                <td>Line 5 column 3</td>
+                <td>Line 5 column 4</td>
+              </tr>
+              <tr>
+                <td colspan="2">Line 6 column 1-2</td>
+                <td>Line 6 column 3</td>
+                <td>Line 6 column 4</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div id="form">
+        <form action="http://my_home.com" method="POST">
+            <label>
+                Name:
+                <input type="text">
+            </label>
+            <br>
+            <label>
+                Phone:
+                <input type="tel">
+            </label>
+            <br>
+            <label>
+                E-male
+                <input type="email">
+            </label>
+            <br>
+            <label>
+                B-day:
+                <input type="date">
+            </label>
+            <br>
+            <label>
+                Sex:
+                <br>
+                <input type="radio" name="WM" > Female
+            </label>
+        <label> 
+                <br>
+                <input type="radio" name="WM" > Male
+            </label>
+
+            <br>
+            <label>Favorite PL:<br>
+                <select name="pl" multiple="multiple">
+                    <option value="pascal">Pascal</option>
+                    <option value="c">C</option>
+                    <option value="cpp">C++</option>
+                    <option value="js">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="haskel">Haskel</option>
+                    <option value="clojure">Clojure</option>
+                    <option value="prolog">Prolog</option>
+                    <option value="scala">Scala</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                Bio:
+                <textarea></textarea>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="acception">Acception
+            </label>
+            <br>
+            <label>
+                <input type="submit" name="submition">
+            </label>
+            <br><br>
+        </form>
+    </div>
+    <footer>
+        <p>The author of this site is tired</p>
+    </footer>
+</body>
+</html>
